@@ -4,6 +4,8 @@ defmodule Issues.Mixfile do
   def project do
     [ app: :issues,
       version: "0.0.1",
+      name: "githubIssues",
+      source_url: "https://github.com/manute/githubIssues",
       deps: deps ]
   end
 
